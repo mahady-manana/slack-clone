@@ -1,0 +1,1 @@
+export { SetupChannelModule } from "./module";

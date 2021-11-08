@@ -1,0 +1,1 @@
+export { GoogleLoginFC } from './GoogleLogin';

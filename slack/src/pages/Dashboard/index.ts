@@ -1,0 +1,1 @@
+export { DashboardModule } from "./module";
