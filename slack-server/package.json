@@ -4,7 +4,9 @@
   "description": "api novity test",
   "main": "build/index.js",
   "scripts": {
-    "dev": "nodemon"
+    "dev": "nodemon",
+    "build": "tsc",
+    "start": "node build/index.js"
   },
   "license": "MIT",
   "dependencies": {
