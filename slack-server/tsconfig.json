@@ -1,0 +1,32 @@
+  {
+    "compilerOptions": {
+      "target": "ESNext",
+      "module": "commonjs",
+      "lib": ["dom", "es6", "es2017", "esnext.asynciterable"],
+     "moduleResolution": "node",
+      "strictFunctionTypes": true,
+      "sourceMap": false,
+      "outDir": "./build",
+      "rootDir": "./src",
+      "allowJs": true,
+      "skipLibCheck": true,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "resolveJsonModule": true,
+      "removeComments": true,
+      "noImplicitAny": true,
+      "strictNullChecks": true,
+      "noImplicitThis": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "noImplicitReturns": true,
+      "noFallthroughCasesInSwitch": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "strictPropertyInitialization": false
+    },
+    "exclude": ["node_modules", "./build"],
+    "include": ["./src/**/*.tsx", "./src/**/*.ts"]
+  }

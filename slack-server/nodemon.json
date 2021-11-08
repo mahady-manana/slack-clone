@@ -1,0 +1,7 @@
+{
+    "verbose": false,
+    "watch": ["./src"],
+    "ext": "ts,js",
+    "exec": "tsc && node build/index.js"
+  }
+  
